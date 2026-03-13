@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Registration Form</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+form{
+    background:white;
+    width:400px;
+    margin:auto;
+    padding:20px;
+    border-radius:8px;
+}
+
+h2{
+    text-align:center;
+}
+
+label{
+    font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>User Registration Form</h2>
+
+<form>
+
+<!-- First Name -->
+<label>First Name:</label><br>
+<input type="text" placeholder="Enter first name" required>
+<br><br>
+
+<!-- Last Name -->
+<label>Last Name:</label><br>
+<input type="text" placeholder="Enter last name" required>
+<br><br>
+
+<!-- Email -->
+<label>Email Address:</label><br>
+<input type="email" placeholder="Enter email" required>
+<br><br>
+
+<!-- Password -->
+<label>Password:</label><br>
+<input type="password" placeholder="Enter password" minlength="6" required>
+<br><br>
+
+<!-- Confirm Password -->
+<label>Confirm Password:</label><br>
+<input type="password" placeholder="Confirm password" required>
+<br><br>
+
+<!-- Date of Birth -->
+<label>Date of Birth:</label><br>
+<input type="date">
+<br><br>
+
+<!-- Gender -->
+<label>Gender:</label><br>
+<input type="radio" name="gender"> Male<br>
+<input type="radio" name="gender"> Female<br>
+<input type="radio" name="gender"> Other
+<br><br>
+
+<!-- Country -->
+<label>Country:</label><br>
+<select>
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+<option>Canada</option>
+<option>Australia</option>
+</select>
+<br><br>
+
+<!-- Terms and Conditions -->
+<input type="checkbox"> I agree to the Terms and Conditions
+<br><br>
+
+<!-- Submit Button -->
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
